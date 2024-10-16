@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body{
+    background: #f0f0f0;
+}
+.logo {
+  position: relative;
+  width: 250px;
+  /* margin: 25px; */
+  cursor: pointer;
+}
+.navbar {
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffd007;
+}
+
+.header a:hover,
+.header .active,
+.header .active:focus,
+.header li:hover > a {
+  color: #000000;
+}
+
+nav ul li:hover ul.dropdown {
+    background-color: #fafdff;
+  }
+
+  .submain{
+    height: 700px;
+    background-color: #ffd007;
+  }
+
+  .submain .left{
+    background-color: aqua;
+  }
+  .submain.right{
+    background-color: bisque;
+}
+
+.one{
+    background-color: #ffd007;
+}
+.two{
+    background-color: aqua;
+}
+.three{
+    background-color: aquamarine;
+}
+.four{
+  background-color: #000000;
+}
+
+  footer{
+    background-color: #f0f0f0;
+  }
+
+  /* home */
+
+  .midsec{
+    height: 700px;
+    background-color: #ffd007;
+  }
+
+  .midleft{
+    background-color: #f0f0f0;
+  }
+  .midright{
+    background-color: #f0f0f0;
+}
+
+h1 span{
+  color: #ffd007;
+}
+
+  /* end of home */
+
+  
